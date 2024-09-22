@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "dotenvpull-backend"
+version = "0.1.0"
+description = ""
+authors = ["Ihor Savenko <csigorek@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+fastapi = "^0.115.0"
+beanie = "^1.26.0"
+pydantic = "^2.9.2"
+uvicorn = "^0.30.6"
+cryptography = "^43.0.1"
+requests = "^2.32.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
