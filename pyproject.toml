@@ -13,6 +13,7 @@ pydantic = "^2.9.2"
 uvicorn = "^0.30.6"
 cryptography = "^43.0.1"
 requests = "^2.32.3"
+pydantic-settings = "^2.5.2"
 
 
 [build-system]
